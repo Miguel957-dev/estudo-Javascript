@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font: normal 20 pt Arial;
+
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('Qual é o seu nome ?')
+        document.writeln(`Seu nome ${nome} tem ${nome.length} letras.</br>`)
+        document.writeln(`Seu nome em maisculo é ${nome.toLowerCase()}</br>`)
+        var n = 1545.5
+        document.write(`O número formatado é ${n.toFixed(2).replace("." , ",")}</br>`)
+        //to.fixed para numero de casas decimais depois da virgula 
+        // replace trocar algo por outra coisa, como o ponto da numeração para virgula 
+    </script>
+</body>
+</html>
