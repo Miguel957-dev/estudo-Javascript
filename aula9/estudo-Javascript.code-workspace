@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "estudo-Javascript",
+			"path": ".."
+		},
+		{
+			"name": "javascript estudos",
+			"path": "../../../../Downloads/javascript estudos"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "estudo-Javascript"
+	}
+}
