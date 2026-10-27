@@ -1,0 +1,17 @@
+
+
+body {
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    border-radius: 6px;
+    padding: 10px;
+}
