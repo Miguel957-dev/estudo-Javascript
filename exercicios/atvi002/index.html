@@ -6,19 +6,17 @@
     <title>Verificador de idade</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body onload="verificaridade()">
+<body>
     <h1>Verificador de Idade</h1>
 
-    <section>
+    <section id="corpo">
         <p>Ano de nascimento: <input type="number" id="datadensc"></p>    
-        <p>Sexo: Masculino <input type="radio" name="" id="Masculino"> Feminino <input type="radio" name="" id="feminino"></p>
-        <input type="button" value="Verificar" onclick="">
+        <p>Sexo: Masculino <input type="radio" name="" id="masculino"> Feminino <input type="radio" name="" id="feminino"></p>
+        <input type="button" value="Verificar" onclick="verificaridade()">
         <p>Preencha os dados acima para ver o resultado!</p>
 
         <div id="foto">
-
-            <img src="homem velho.jfif" alt="">
-
+            <img src="" alt="" id="imagem">
         </div>
         
     </section>
